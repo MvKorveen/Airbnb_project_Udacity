@@ -79,4 +79,7 @@ There are indications that user behaviour increases the probability of an item b
         - Answer can be found in section 1.4.5.
         - No there is no linear result in section 2.2.2. to support this. Eventhough some dummies are significant they go up and down.
 
-
+## Further recomendations
+- additional controll variables should be added to try to increase the explanatory power of the model
+- It is likelly that the assumptions made about an item not being available equals it being booked. Other datasets should be explored to do this.
+    - Historical data would be preferable. Can we see which items where ACTUALLY on the market, but not booked at all?
