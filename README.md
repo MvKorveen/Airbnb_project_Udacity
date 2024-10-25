@@ -83,3 +83,4 @@ There are indications that user behaviour increases the probability of an item b
 - additional controll variables should be added to try to increase the explanatory power of the model
 - It is likelly that the assumptions made about an item not being available equals it being booked. Other datasets should be explored to do this.
     - Historical data would be preferable. Can we see which items where ACTUALLY on the market, but not booked at all?
+- Do a word analysis on descriptions. What words are associated with a higher demand? 
