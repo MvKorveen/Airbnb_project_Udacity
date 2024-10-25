@@ -1,9 +1,12 @@
-# airBnB Seattle project
+# Udacity course project: Airbnb Seattle data
 
 This project uses the Seattle Airbnb data available on kaggle to investigate how large of an impact owner behaviour has on tenant demand
+
 ## Project description
 
 ### Questions to answer
+
+These are the questions this repo seeks to answer:
 * During which period of the year is items on airbnb in highest demand?
 * Is there a higher demand over weekends?
 * Does the user behaviour increase demand?
@@ -12,7 +15,7 @@ This project uses the Seattle Airbnb data available on kaggle to investigate how
     - Do a more comprehensive text description of the item affect demand?
     - What about the user details? Do the data imply that one should focus on a long personal description? 
 
-## Data
+### Data
 
 The data used for this analysis is:
 - Listings, including full descriptions and average review score
@@ -20,6 +23,14 @@ The data used for this analysis is:
 
 which can be downloaded at https://www.kaggle.com/datasets/airbnb/seattle/data
 
+### CRISP-DM
+
+The notebook in this repo covers steps 2-5 in the CRISP-DM methotdology. 
+
+For step 1 I have used the variable descriptions provided in this kaggle post (https://www.kaggle.com/datasets/airbnb/seattle/discussion/273456) as well as the Data Wrangler function available in VS Code.
+
+For a descriptive data presentation I have written a blog post on medium, which can be found in the link below: 
+https://medium.com/@marcus.wik.84/why-less-is-more-on-airbnb-or-is-it-21c161c89754
 
 ### MAIN KPI
 
@@ -49,8 +60,6 @@ These two sets of data needs to be installed under the folder `airbnb_data` in t
 Following that, the notebook `airbnb_project.ipynb` can be run in full
 
 ## Main finding
-
-There are indications that user behaviour increases the probability of an item being in high demand.
 
 1. During which period of the year is items on airbnb in highest demand?
     - Answer: Other than the closest period in the data, january, the largest demand is in july and august when 37% and 35% of the items are booked.
@@ -86,5 +95,5 @@ There are indications that user behaviour increases the probability of an item b
 - Do a word analysis on descriptions. What words are associated with a higher demand? 
 
 ## Acknowledgments
-- A large share of the modeling approach and CRISP-DM methodology is gathered from the Udacity course Data Science.
+- A large share of the modeling approach as well the CRISP-DM methodology is gathered from the Udacity course Data Science.
 - I have used the information gathered by the kaggle user Zacks Shen on the metadata for the Seattle dataset. This description can be found here: https://www.kaggle.com/datasets/airbnb/seattle/discussion/273456
